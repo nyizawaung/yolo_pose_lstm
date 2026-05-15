@@ -1,0 +1,5 @@
+typing
+drinking
+reading
+moving_object
+playing

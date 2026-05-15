@@ -1,0 +1,19 @@
+{
+  "dataset_dir": "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector/Action_LSTM/action_dataset",
+  "cache_dir": "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector/Action_LSTM/cache/pose_features",
+  "checkpoint": "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector/Action_LSTM/checkpoints/action_lstm.pt",
+  "split_file": "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector/Action_LSTM/splits/train_val_split.json",
+  "pose_model": "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector/Action_LSTM/yolov8m-pose.pt",
+  "imgsz": 256,
+  "frame_stride": 1,
+  "sequence_length": 5,
+  "window_stride": 15,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.25,
+  "batch_size": 16,
+  "epochs": 80,
+  "lr": 0.0005,
+  "val_split": 0.2,
+  "seed": 42
+}

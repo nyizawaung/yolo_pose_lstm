@@ -1,0 +1,12 @@
+albumentations==2.0.8
+fiftyone==1.15.0
+mediapipe==0.10.35
+numpy==2.4.4
+opencv-python==4.13.0.92
+Pillow==12.2.0
+pynput==1.8.2
+PyGObject==3.48.2
+PyYAML==6.0.3
+torch==2.11.0
+tqdm==4.67.3
+ultralytics==8.4.40
