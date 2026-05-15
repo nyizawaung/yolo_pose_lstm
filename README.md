@@ -5,7 +5,7 @@ It extracts human pose keypoints with YOLOv8 pose, caches those keypoints, train
 
 ## Dataset
 
-Detected classes:
+Detected classes: (can create easily by collect_webcam_dataset.py or other video annotator)
 
 - `boxing`
 - `handclapping`
@@ -26,17 +26,6 @@ Action_LSTM/
     running/*.avi
     walking/*.avi
 ```
-
-## Environment
-
-Use the shared DataCollector virtual environment from the repo root:
-
-```bash
-cd "/home/nyi-zaw-aung/Documents/Local Projects/DataCollector"
-source .venv/bin/activate
-```
-
-The shared environment already contains `torch`, `ultralytics`, `opencv-python`, and `numpy`.
 
 ## Train
 
